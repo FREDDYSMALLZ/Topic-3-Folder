@@ -2,19 +2,17 @@ import java.util.Scanner;
 public class Chapter18Exercise {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    //Print the characters in a string reversely
 		
-		System.out.print("Enter a string: ");
+		System.out.print("Enter a string: ");//Prompt the user to enter a string and displays the reversal
         String value = new Scanner(System.in).nextLine();
         reverseDisplay(value);
 
     }
 
-    private static void reverseDisplay(String value) {
+    public static void reverseDisplay(String value) {
         if (value.length() == 0)
             return;
-        System.out.print(value.substring(value.length() - 1));
-        reverseDisplay(value.substring(0, value.length()-1));
     }
 
 	}
