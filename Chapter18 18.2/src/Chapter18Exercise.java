@@ -2,12 +2,16 @@
 public class Chapter18Exercise {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		 System.out.println("The fibonacci(10) is " + fib(10));
+		// Fibonacci numbers
+		//Rewrite the fibonacci method in Listing 18.2
+		//Prompt the user to enter an index 
+		 System.out.println("The fibonacci is " );
 	  }
 
 	  public static long fib(int n) {
-	    int f0 = 0, f1 = 1, currentFib;
+	    int f0 = 0,//For fib(0)
+	    	f1 = 1,//For fib(1)
+	    	currentFib;
 
 	    if (n == 0) return 0;
 	    if (n == 1) return 1;
